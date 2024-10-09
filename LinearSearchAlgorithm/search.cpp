@@ -1,8 +1,13 @@
-//
-//  search.cpp
-//  LinearSearchAlgorithm
-//
-//  Created by Chatchapong Thuaypha on 10/7/24.
-//
+#include "search.h"
 
-#include <stdio.h>
+namespace Search {
+    // Function to perform linear search
+    int linearSearch(int arr[], int size, int target) {
+        for (int i = 0; i < size; i++) {
+            if (arr[i] == target) {
+                return i;  // Return index if target is found
+            }
+        }
+        return -1;  // Return -1 if target is not found
+    }
+}

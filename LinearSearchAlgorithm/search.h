@@ -1,12 +1,9 @@
-//
-//  search.h
-//  LinearSearchAlgorithm
-//
-//  Created by Chatchapong Thuaypha on 10/7/24.
-//
+#ifndef SEARCH_H
+#define SEARCH_H
 
-#ifndef search_h
-#define search_h
+namespace Search {
+    // Header Function to perform linear search
+    int linearSearch(int arr[], int size, int target);
+}
 
-
-#endif /* search_h */
+#endif
